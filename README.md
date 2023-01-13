@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# JavaScript Advanced - Proiectul 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Rularea proiectului
 
-## Available Scripts
+#### 1. `git clone https://github.com/razvancir96/react-admin-panel.git`
 
-In the project directory, you can run:
+#### 2. `cd react-admin-panel`
 
-### `npm start`
+#### 3. `npm install` (posibil sa dureze)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### 4. `npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Cursuri precedente
 
-### `npm test`
+Pentru a vedea progresiv cum a fost realizat acest proiect urmariti urmatoarele repo-uri. Comentariile/console.log-urile din fiecare fisier sunt specifice cursurului la care au fost facute. Versiunea finala este fara comentarii sau console.log-uri.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Cursul 2: https://github.com/razvancir96/react-curs02
 
-### `npm run build`
+#### Cursul 3: https://github.com/razvancir96/react-curs03
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Cursul 4: https://github.com/razvancir96/react-curs04
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Cerințe de implementat
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pentru a continua proiectul, aveți de implementat cerințele care au fost date de-a lungul cursurilor 2-4:
 
-### `npm run eject`
+2.1. Adăugați două proprietăți noi pentru fiecare user: salariu și imagine. Dați valori pentru acestea și afișați-le pe ecran.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.2. Adăugați un nou input de tip culoare. La schimbarea culorii lui, culoarea textului pentru întreaga aplicație se va schimba.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3.1. Creați două componente noi, numite PostList și PostItem. PostList va fi o listă de componente de tip PostItem.
+În componenta PostList, atunci când este afișată pe ecran, faceți un request catre endpoint-ul /posts, de pe JSON placeholder, afișând datele preluate. Practic, o singură dată veți face request către url-ul https://jsonplaceholder.typicode.com/posts.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3.2. Creați două butoane: Afișează useri și Afișează postări. Implicit, vor fi afișați userii. La click pe oricare din cele două butoane, va fi actualizată lista afișată pe ecran. Dacă dăm click pe butonul Afișează useri va fi afișată lista userilor, dacă dăm click pe Afișează postări va fi afișată lista postărilor.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4.1 Adăugați pe fiecare user un buton de ștergere.
 
-## Learn More
+4.2. Faceți puțină validare a datelor. Spre exemplu, să nu poată fi introdus un nume gol, iar emailul să conțină caracterele `@` și `.`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.3. Stilizați aplicația, astfel încât să arate mai frumos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
